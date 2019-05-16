@@ -1,0 +1,1 @@
+# Build image using docker-maven-plugin
