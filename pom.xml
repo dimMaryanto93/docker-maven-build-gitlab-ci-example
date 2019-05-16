@@ -190,7 +190,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <baseImage>openjdk:8-jdk-alpine</baseImage>
+                    <baseImage>repository.dimas-maryanto.com:8087/openjdk:8-jdk-alpine</baseImage>
                     <imageName>${project.artifactId}:${project.version}</imageName>
                     <retryPushCount>2</retryPushCount>
                     <resources>
